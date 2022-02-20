@@ -1,44 +1,44 @@
 # wpbstarter
-A Bootstrap Boilerplate WordPress Theme powered by underscores.me including Bootstarp 4.3.1 and FontAwesome 5.13.0
-<h2>About</h2>
-The best WordPress starter theme based on the most powerful frameworks in the world: underscores (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0-beta.2 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+Bootstrap Boaterplate WordPress Theme Powered by underscores.me включая bootstarp 4.3.1 и fontawesome 5.13.0
+<h2> About </h2>
+Лучшая тема стартера WordPress, основанная на самых мощных рамках в мире: подчеркивает (по автоматической, главным людям за разработкой WordPress), Twitter Bootstrap (самые популярные HTML, CSS и JS Framework для разработки отзывчивых, мобильных первых проектов на Web) и шрифт потрясающий (или fontawesome, полный набор пиктографических значков 675+ для легкой масштабируемой векторной графики на веб-сайтах). Эта тема, как WordPress, лицензируется под GPL. Вы можете использовать эту тему в качестве основы для вашего следующего проекта Theme WordPress, и вам разрешено удалить ссылку у нижнего колонтитула или делать все, что вы хотите. Ваш отзыв о том, как мы можем постоянно улучшать эту загрузку тематического загрузки на стартер WordPress, будет высоко оценена. Шаблоны страницы включают в себя правую боковую панель (шаблон страницы по умолчанию), левая боковая панель, полная ширина, пустой с контейнером, пустой без контейнеров. Другие функции - в настоящее время используют Bootstrap V4.0.0-Beta.2, Vidgetized Flower Preaker, Woocommerce Готов, совместим с контактной формой 7, совместимым с Visual Composer, совместимый с Page Page. Эта тема будет активным проектом, который мы будем время от времени обновляться. Регулярно проверяйте эту страницу для обновлений.
 
 
-This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated.
+Эта тема, как WordPress, лицензируется под GPL.Вы можете использовать эту тему в качестве основы для вашего следующего проекта Theme WordPress, и вам разрешено удалить ссылку у нижнего колонтитула или делать все, что вы хотите.Ваш отзыв о том, как мы можем постоянно улучшать эту загрузку тематического загрузки на стартер WordPress, будет высоко оценена.артер WordPress, будет высоко оценена.
 
-Page templates
-* Right-sidebar (default page template)
-* Left-Sidebar
-* Full-Width with container
-* Full-Width without container
-* Blank with container
-* Blank without container Page
+Шаблоны страницы
+* Правая боковая панель (шаблон страницы по умолчанию)
+* Левая боковая панель
+* Полная ширина с контейнером
+* Полная ширина без контейнера
+* Пусто с контейнером
+* Пусто без контейнеров
 
-Other features:
-* Currently using Bootstrap v4.3.1
-* Font Awesome integrated
-* Widgetized footer area
-* WooCommerce ready
-* breadcrumb navxt ready
-* Compatible with Contact Form 7
-* Compatible with Visual Composer
-* Compatible with Elementor Page Builder
+Другие преимущества:
+* В настоящее время используя Bootstrap v4.3.1
+* Шрифт потрясающий интегрированный
+* Vidgetized Flower Pail
+* Woocommerce готов
+* Hathcreumb Navxt готов
+* Совместимо с контактной формой 7
+* Совместим с Visual Composer
+* Совместим с Page Page Builder
 
-<h2>Required WordPress Version</h2>
-Requires at least: 4.0 <br>
-Tested up to: 5.3.2
+<h2>Требуется версия WordPress</h2>
+Требует как минимум: 4.0 <br>
+Проверено до: 5.3.2
 
-<h2>self-branding</h2>
-It's a themeforest standard starter theme can easily be modified for self-branding.<br><br>
-<strong>The processes have been given below:</strong><br>
-* Theme name and text domain is "<strong>wpbstarter</strong>". <br>
-* Replace the keyword "<strong>wpbstarter</strong>" with your own theme name and text domain. <br>
-Note: [ You can use "sublime text" editor to replace the keyword "<strong>wpbstarter</strong>" from all files at a time. ]
+<h2>Самостоятельное брендинг</h2>
+Это тематическая стандартная тема стартера может быть легко модифицирована для самостоятельного брендинга. <br> <br> <br> <br>
+<Сильные> Процессы были приведены ниже: </ strong> <br>
+* Имя темы и текстовый домен - это «<STROCT> WPBSTARTER </ CROUSE>».<br>
+* Заменить ключевое слово «CORM> WPBSTARTER </ STROCT>» с вашим собственным названием темы и текстовым доменом.<br>
+Примечание: [Вы можете использовать редактор «Sublime Text» для замены ключевого слова «<STROCT) WPBSTARTER </ STROCT>» из всех файлов за раз.Несомненно
 
-<strong>Thanks to - 
-  underscore,
-  bootstrap,
-  fontawesome,
-  pattonwebz,
-  cristian-ungureanu,
-  wp-starter-theme</strong>
+<strong>Благодаря -
+  подчеркивать,
+  Bootstrap,
+  Fontawesome,
+  Паттонвебз,
+  Cristian-Ungurearu,
+  WP-Starter-Theme </strong>
