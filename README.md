@@ -31,14 +31,14 @@ Bootstrap Boaterplate WordPress Theme Powered by underscores.me включая b
 <h2>Самостоятельное брендинг</h2>
 Это тематическая стандартная тема стартера может быть легко модифицирована для самостоятельного брендинга.<br><br>
 <strong>Процессы были приведены ниже:</strong><br>
-* Имя темы и текстовый домен - это «<STROCT> WPBSTARTER </ CROUSE>».<br>
-* Заменить ключевое слово <CORM> WPBSTARTER </ STROCT>» с вашим собственным названием темы и текстовым доменом. <br>
-Примечание. [Вы можете использовать редактор «Sublime Text» для замены ключевого слова"<strong>wpbstarter</strong>" От всех файлов за раз. ]
+* Имя темы и текстовый домен "<strong>wpbstarter</strong>". <br>
+* Заменить ключевое слово "<strong>wpbstarter</strong>"с вашим собственным названием темы и текстовым доменом. <br>
+Примечание. [Вы можете использовать редактор «Sublime Text» для замены ключевого слова "<strong>wpbstarter</strong>" От всех файлов за раз. ]
 
-<strong>TХэнкс к -
+<strong>Благодаря -
   подчеркивать,
   Bootstrap,
   Fontawesome,
   Паттонвебз,
   Cristian-Ungurearu,
-  wp-стартер-тема </strong>
+  wp-стартер-тема</strong>
