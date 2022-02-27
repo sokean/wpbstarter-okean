@@ -7,6 +7,10 @@
  * @package wpbstarter
  */
 
+
+
+
+
 if ( ! function_exists( 'wpbstarter_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -219,3 +223,12 @@ require_once get_template_directory() . '/inc/plugin-compatibility/plugin-compat
 if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
     require_once(get_template_directory() . '/inc/wp_bootstrap_navwalker.php');
 }
+
+function mytheme_init() {
+    add_filter('comment_form_defaults','mytheme_comments_form_defaults');
+ }
+ add_action('after_setup_theme','mytheme_init');
+ function mytheme_comments_form_defaults($default) {
+    unset($default['comment_notes_after']);
+    return $default;
+ }
