@@ -38,7 +38,8 @@ if ( post_password_required() ) {
             } else {
                 printf( // WPCS: XSS OK.
 					/* Переводчики: 1: Комментарий Количество номеров, 2: Название. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $wpbstarter_comments_number, 'comments title', 'wpbstarter' ) ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', 
+                    $wpbstarter_comments_number, 'comments title', 'wpbstarter' ) ),
 					esc_html( number_format_i18n( $wpbstarter_comments_number ) ),
 					'<span>' . esc_html( get_the_title() ) . '</span>'
 				);
@@ -90,14 +91,15 @@ if ( post_password_required() ) {
 
     <?php comment_form( $args = array(
         'id_form'           => 'commentform',  // Какое значение deadpress по умолчанию!Удалить его или отредактировать ;)
-        'id_submit'         => 'commentsubmit',
-        'title_reply'       => __( 'Ваш коментарий', 'ццццццццццццwpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
-		/* translators: 1: Reply Specific User */
-        'title_reply_to'    => __( 'Leave a Reply to %s', 'wpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
-        'cancel_reply_link' => __( 'Cancel Reply', 'wpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
+        'id_submit'         => 'commentsubmit', //тут неразбочиво но мы справимся
+        'title_reply'       => __( 'Ваш коментарий',  ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
+		/* Переводчики: 1: Ответить конкретный пользователь  translators: 1: Reply Specific User */
+        'title_reply_to'    => __( 'Оставить комментарий к% S', 'wpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
+        'cancel_reply_link' => __( 'Отменить ответ', 'wpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать ;)
         'label_submit'      => __( 'Оставить комментарий', 'wpbstarter' ),  // Это значение по умолчанию WordPress!Удалить его или отредактировать;)
 
-        'comment_field' =>  '<p><textarea placeholder="Заполняем вашими коментариями..." id="comment" class="form-control" name="comment" cols="45"
+        'comment_field' =>  '<p><textarea placeholder="Заполняем вашими коментариями..." 
+        id="comment" class="form-control" name="comment" cols="45"
          rows="8" aria-required="true"></textarea></p>',
 
         //*'comment_notes_after' => '<p class="form-allowed-tags">' .*//

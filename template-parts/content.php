@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying posts
+ * Часть шаблона для отображения сообщений
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

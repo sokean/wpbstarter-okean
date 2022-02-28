@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying a message that posts cannot be found
+ * Часть шаблона для отображения сообщения, которое не может быть найдено
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
