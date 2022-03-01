@@ -1,6 +1,6 @@
 <?php
 /**
- * wpbstarter functions and definitions
+ * Функции и определения WPBStarter
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -13,63 +13,63 @@
 
 if ( ! function_exists( 'wpbstarter_setup' ) ) :
 /**
- * Sets up theme defaults and registers support for various WordPress features.
- *
- * Note that this function is hooked into the after_setup_theme hook, which
- * runs before the init hook. The init hook is too late for some features, such
- * as indicating support for post thumbnails.
+ * Настраивает тему по умолчанию и регистрирует поддержку различных функций WordPress.
+ * Обратите внимание, что эта функция подключена к крючке After_Setup_Theme, которая
+ * работает до того, как крюк init.Ининированный крючок слишком поздно для некоторых функций, таких
+ * Как указывает на поддержку пост-миниатюр.
  */
 function wpbstarter_setup() {
-	/*
-	 * Make theme available for translation.
-	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on wpbstarter, use a find and replace
-	 * to change 'wpbstarter' to the name of your theme in all the template files.
-	 */
+	
+    /**
+    *Сделайте тему доступной для перевода.
+    * Переводы могут быть поданы на / языки / каталог.
+    * Если вы строите тему на основе WPBStarter, используйте находку и заменить
+    * Чтобы изменить «WPBStarter» на имя вашей темы во всех файлах шаблона.
+	*/
 	load_theme_textdomain( 'wpbstarter', get_template_directory() . '/languages' );
 
-	// Add default posts and comments RSS feed links to head.
+	//Добавьте по умолчанию и комментарии RSS Feed ссылки на голову.
 	add_theme_support( 'automatic-feed-links' );
-
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
+    
+	/** 
+    * Пусть WordPress управляет заголовком документа.
+    * Добавление поддержки темы, мы заявляем, что эта тема не использует
+    * Жесткий код <title> Tag в голове документа и ожидает WordPress к
+    * Предоставьте это для нас.
+	*/
 	add_theme_support( 'title-tag' );
 
 	/*
-	 * Enable support for Post Thumbnails on posts and pages.
+	 * Включить поддержку пост-миниатюр на постах и страницах.
 	 *
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
     add_image_size( 'wpbstarter-blog', 750, 450, true );
 
-	// This theme uses wp_nav_menu() in one location.
+	// Эта тема использует WP_NAV_MENU () в одном месте.
 	register_nav_menus( array(
 		'primary_menu' => esc_html__( 'Primary Menu', 'wpbstarter' ),
         'right_side_menu' => esc_html__( 'Right Side Menu', 'wpbstarter' ),
 	) );
 
 	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
+	 * Переключите разметку Core по умолчанию для формы поиска, формы комментариев и комментариев
+    * Для вывода действительного HTML5.
+	*/
 	add_theme_support( 'html5', array(
 		'comment-form',
 		'comment-list',
 		'caption',
 	) );
 
-	// Set up the WordPress core custom background feature.
+	// Настройка функции фона WordPress Core пользовательских.
 	add_theme_support( 'custom-background', apply_filters( 'wpbstarter_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 
-	// Add theme support for selective refresh for widgets.
+	// Добавить тему поддержки для выборочного обновления для виджетов.
 	add_theme_support( 'customize-selective-refresh-widgets' );
 
     function wpbstarter_add_editor_styles() {
