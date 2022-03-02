@@ -1,11 +1,11 @@
 <?php
 /**
- * The main template file
+ * Основной файл шаблона
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
+ * Это самый универсальный файл шаблона в теме WordPress
+ * И один из двух необходимых файлов для темы (другой - style.css).
+ * Используется для отображения страницы, когда ничего более конкретных совпадает с запросом.
+ * E.G., он собирает домашнюю страницу, когда не существует никаких файлов Home.php.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
